@@ -1,6 +1,6 @@
 import torch
 import clip
-from utils.image_loader import load_image
+from src.utils.image_loader import load_image
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
